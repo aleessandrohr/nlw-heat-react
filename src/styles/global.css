@@ -24,21 +24,35 @@ ul {
 	list-style: none;
 }
 
-@media (max-width: 768px) {
+button,
+textarea {
+	background: transparent;
+	color: #e1e1e6;
+	font-size: 1.6rem;
+	border: transparent;
+}
+
+@media (max-width: 1024px) {
 	html {
 		font-size: 60.5%;
 	}
 }
 
+@media (max-width: 768px) {
+	html {
+		font-size: 58.5%;
+	}
+}
+
 @media (max-width: 360px) {
 	html {
-		font-size: 57.5%;
+		font-size: 56.5%;
 	}
 }
 
 @media (max-width: 320px) {
 	html {
-		font-size: 55.5%;
+		font-size: 54.5%;
 	}
 }
 
